@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.skyback {
+    background-image: url('/img/sun.jpg');
+    background-position: center;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(255, 255, 255, 66%);
+    font-weight: 100;
+
+}
+.w-icon {
+    color:rgb(243, 243, 243);
+}
+
+div {
+    border: 1px solid black;
+}
+.info-panel {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.degrees {
+    font-size: 25vh;
+}
